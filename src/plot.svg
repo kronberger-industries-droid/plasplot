@@ -1,0 +1,67 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1000 800">
+<rect width="1000" height="800" x="0" y="0" id="0" fill="none"></rect>
+<path d="M100 730.5L900 730.5" fill="none" stroke="#E0E6F1"></path>
+<path d="M100 596.5L900 596.5" fill="none" stroke="#E0E6F1"></path>
+<path d="M100 462.5L900 462.5" fill="none" stroke="#E0E6F1"></path>
+<path d="M100 328.5L900 328.5" fill="none" stroke="#E0E6F1"></path>
+<path d="M100 194.5L900 194.5" fill="none" stroke="#E0E6F1"></path>
+<path d="M100 60.5L900 60.5" fill="none" stroke="#E0E6F1"></path>
+<path d="M100.5 60L100.5 730" fill="none" stroke="#E0E6F1"></path>
+<path d="M260.5 60L260.5 730" fill="none" stroke="#E0E6F1"></path>
+<path d="M420.5 60L420.5 730" fill="none" stroke="#E0E6F1"></path>
+<path d="M580.5 60L580.5 730" fill="none" stroke="#E0E6F1"></path>
+<path d="M740.5 60L740.5 730" fill="none" stroke="#E0E6F1"></path>
+<path d="M900.5 60L900.5 730" fill="none" stroke="#E0E6F1"></path>
+<path d="M100.5 730L100.5 60" fill="none" stroke="#6E7079" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-6" transform="translate(100 45)" fill="#6E7079">Ig in muA</text>
+<path d="M100 730.5L900 730.5" fill="none" stroke="#6E7079" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(915 730)" fill="#6E7079">U in V</text>
+<path d="M100 730.5L95 730.5" fill="none" stroke="#6E7079"></path>
+<path d="M100 596.5L95 596.5" fill="none" stroke="#6E7079"></path>
+<path d="M100 462.5L95 462.5" fill="none" stroke="#6E7079"></path>
+<path d="M100 328.5L95 328.5" fill="none" stroke="#6E7079"></path>
+<path d="M100 194.5L95 194.5" fill="none" stroke="#6E7079"></path>
+<path d="M100 60.5L95 60.5" fill="none" stroke="#6E7079"></path>
+<path d="M100.5 730L100.5 735" fill="none" stroke="#6E7079"></path>
+<path d="M260.5 730L260.5 735" fill="none" stroke="#6E7079"></path>
+<path d="M420.5 730L420.5 735" fill="none" stroke="#6E7079"></path>
+<path d="M580.5 730L580.5 735" fill="none" stroke="#6E7079"></path>
+<path d="M740.5 730L740.5 735" fill="none" stroke="#6E7079"></path>
+<path d="M900.5 730L900.5 735" fill="none" stroke="#6E7079"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" transform="translate(92 730)" fill="#6E7079">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" transform="translate(92 596)" fill="#6E7079">0.2</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" transform="translate(92 462)" fill="#6E7079">0.4</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" transform="translate(92 328)" fill="#6E7079">0.6</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" transform="translate(92 194)" fill="#6E7079">0.8</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" transform="translate(92 60)" fill="#6E7079">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(100 738)" fill="#6E7079">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(260 738)" fill="#6E7079">0.2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(420 738)" fill="#6E7079">0.4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(580 738)" fill="#6E7079">0.6</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(740 738)" fill="#6E7079">0.8</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(900 738)" fill="#6E7079">1</text>
+<g clip-path="url(#zr0-c0)">
+<path d="M100 730" fill="none" stroke="#5470c6" stroke-width="2" stroke-linejoin="bevel"></path>
+</g>
+<g clip-path="url(#zr0-c1)">
+<path d="M100 730" fill="none" stroke="#91cc75" stroke-width="2" stroke-linejoin="bevel"></path>
+</g>
+<g clip-path="url(#zr0-c2)">
+<path d="M100 730" fill="none" stroke="#fac858" stroke-width="2" stroke-linejoin="bevel"></path>
+</g>
+<path d="M-0.54 -0.89A0.6 0.6 0 1 1 0.54 -0.89C0.39 -0.56 0 -0.42 0 0C0 -0.42 -0.39 -0.56 -0.54 -0.89Z" transform="matrix(25,0,0,25,100,730)" fill="#91cc75"></path>
+<path d="M-0.54 -0.89A0.6 0.6 0 1 1 0.54 -0.89C0.39 -0.56 0 -0.42 0 0C0 -0.42 -0.39 -0.56 -0.54 -0.89Z" transform="matrix(25,0,0,25,100,730)" fill="#fac858"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="translate(100 703.8571)" fill="#333">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="translate(100 703.8571)" fill="#333">0</text>
+<defs >
+<clipPath id="zr0-c0">
+<path d="M99 59l802 0l0 672l-802 0Z" fill="#000"></path>
+</clipPath>
+<clipPath id="zr0-c1">
+<path d="M99 59l802 0l0 672l-802 0Z" fill="#000"></path>
+</clipPath>
+<clipPath id="zr0-c2">
+<path d="M99 59l802 0l0 672l-802 0Z" fill="#000"></path>
+</clipPath>
+</defs>
+</svg>
