@@ -3,7 +3,7 @@ Plasma
 Gruppe 301
 
 Entladungsstrom: 25,0mA
-Druck: 0,6hPa	Sondenstellung: 5,0mm
+Druck: 0,6hPa	Sondenstellung: 7,5mm
 
 	U [V]	I [µA]	Ig [µA]	I' [µA/V]	I'g [µA/V]	I'' [µA/V²]	I''g [µA/V²]
 	-30,000000	-9,587117	-12,535013	0,000000	0,000000	0,000000	0,000000

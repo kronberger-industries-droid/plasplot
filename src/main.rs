@@ -1,12 +1,13 @@
+use std::fs;
 use std::path::{Path, PathBuf};
 
 use charming::{
     component::Axis,
-    element::{Label, MarkLineDataType, MarkPoint, MarkPointData},
+    element::{MarkPoint, MarkPointData},
     series::Line,
     Chart, ImageRenderer,
 };
-use csv::{Position, ReaderBuilder};
+use csv::ReaderBuilder;
 use polyfit_rs::polyfit_rs;
 
 #[derive(Debug)]
@@ -32,7 +33,7 @@ impl PlasmaParams {
 fn read_and_plot(filepath: PathBuf, renderer: &mut ImageRenderer) {
     let mut reader = ReaderBuilder::new()
         .delimiter(b' ')
-        .from_path(filepath)
+        .from_path(&filepath)
         .expect("Could not open file");
 
     let records = reader.records().skip(1);
@@ -96,8 +97,6 @@ fn read_and_plot(filepath: PathBuf, renderer: &mut ImageRenderer) {
 
     let plasma = PlasmaParams::new(fit_front[0], fit_tail[0], d_i, 0.6);
 
-    println!("{:?}", plasma);
-
     // Create a chart using the CSV data
     let chart = Chart::new()
         .x_axis(Axis::new().name("U in V"))
@@ -122,14 +121,32 @@ fn read_and_plot(filepath: PathBuf, renderer: &mut ImageRenderer) {
                         .y_axis(fit_tail[0]).value((fit_tail[0]*10.0).round()/10.0)])),
         );
 
+    println!("{:?}", plasma);
+
     renderer
-        .save(&chart, "src/plot.svg")
+        .save(&chart, filepath.with_extension("svg"))
         .unwrap_or_else(|e| eprintln!("Could not render file: {}", e));
 }
 
 fn main() {
     let mut renderer = ImageRenderer::new(1000, 800);
-    let path = Path::new("data/data_5-2-4.csv").to_path_buf();
+    let data_dir = Path::new("data").to_path_buf();
 
-    read_and_plot(path, &mut renderer);
+    let data_paths: Vec<PathBuf> = fs::read_dir(&data_dir)
+        .expect("Failed to read given directory")
+        .filter_map(|entry| {
+            let entry = entry.ok()?;
+            let path = entry.path();
+
+            if path.is_file() && path.extension().is_none_or(|extension| extension == "csv") {
+                Some(path)
+            } else {
+                None
+            }
+        })
+        .collect();
+
+    for path in data_paths {
+        read_and_plot(path, &mut renderer);
+    }
 }
